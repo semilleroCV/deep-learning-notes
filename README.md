@@ -48,14 +48,16 @@ We are here for you, so don't hesitate to [reach out](https://discord.gg/MkCpdsH
 
 ## 💻 Run Locally
 
-We try to make it as easy as possible to run Roboflow Notebooks in Colab and Kaggle. However, if you prefer to run them locally using a Conda environment, follow the instructions below.
+We try to make it as easy as possible to run our Notebooks in Colab. However, if you prefer to run them locally using a Conda environment, follow the instructions below.
 
 ```console
 # Clone the repository and navigate to the root directory:
 git clone git@github.com:semilleroCV/deep-learning-notes.git
 cd deep-learning-notes
 
-# Set up the Conda environment by executing the following commands in your terminal, this will create a Conda environment named deep-learning-notes with Python version 3.10 and install the necessary dependencies:
+# Set up the Conda environment by executing the following commands in your terminal, 
+# this will create a Conda environment named deep-learning-notes with Python version
+# 3.10 and install the necessary dependencies:
 make create_environment
 
 # Activate the Conda environment:
