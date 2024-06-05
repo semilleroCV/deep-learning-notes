@@ -1,54 +1,56 @@
 name: 🚀 Pull Request
-description: Submit a pull request to contribute to the Deep Learning Notes repository
-labels: [enhancement, bugfix, documentation]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for contributing to the Deep Learning Notes repository!
+on:
+  pull_request:
+    types: [opened]
 
-  - type: textarea
-    attributes:
-      label: Pull Request Title
-      description: Provide a concise title for your pull request.
-      placeholder: |
-        e.g., "Add Cross Entropy Loss notebook"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Submit Pull Request
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const yaml = require('js-yaml');
 
-  - type: textarea
-    attributes:
-      label: Description
-      description: Describe the changes you are proposing.
-      placeholder: |
-        Provide a detailed description of your changes and why they are necessary.
+            const PR_TEMPLATE_PATH = '.github/PULL_REQUEST_TEMPLATE.md';
+            const prTemplate = yaml.safeLoad(fs.readFileSync(PR_TEMPLATE_PATH, 'utf8'));
 
-  - type: checkboxes
-    attributes:
-      label: Checklist
-      description: Ensure your pull request meets the following requirements:
-      options:
-        - label: I have reviewed existing notebooks to avoid duplications.
-          required: true
-        - label: My notebook is fully executed.
-          required: true
-        - label: I have included a list of all libraries and their versions used in the notebook.
-          required: true
-        - label: The notebook file is named clearly to reflect the topic (e.g., `cross-entropy-loss.ipynb`).
-          required: true
-        - label: I have placed the notebook in the appropriate directory under `notebooks/`.
-          required: true
-        - label: My code is simple, precise, and adheres to good coding practices.
-          required: true
+            const prTitle = prTemplate['Pull Request Title'];
+            const prDescription = prTemplate['Description'];
+            const prChecklist = prTemplate['Checklist'];
+            const prLinkedIssues = prTemplate['Linked Issues'];
+            const prAdditionalInfo = prTemplate['Additional Information'];
 
-  - type: textarea
-    attributes:
-      label: Linked Issues
-      description: List any related issues this pull request addresses.
-      placeholder: |
-        e.g., "Fixes #123"
+            const body = `
+${prTemplate['Thank you message']}
+### Pull Request Title
+${prTitle}
 
-  - type: textarea
-    attributes:
-      label: Additional Information
-      description: Any other information you want to include?
-      placeholder: |
-        Include any other context, screenshots, or details that might help understand your changes.
+### Description
+${prDescription}
+
+### Checklist
+${prChecklist.map(item => `- [${item.label}] ${item.required ? '**(Required)**' : ''}`).join('\n')}
+
+### Linked Issues
+${prLinkedIssues}
+
+### Additional Information
+${prAdditionalInfo}
+`;
+
+            const params = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              body: body
+            };
+
+            await github.pulls.update(params);
