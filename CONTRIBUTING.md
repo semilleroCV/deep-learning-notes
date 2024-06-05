@@ -4,7 +4,7 @@ We are thrilled to have you contribute to the Deep Learning Notes repository! We
 
 ## 📝 Before You Begin
 
-- Review existing notebooks in the repository to avoid duplications. If a notebook on your topic already exists, consider improving it rather than creating a new one.
+- Review existing notebooks in the repository to avoid duplications. If a notebook on your topic already exists, consider [improving it](https://github.com/semilleroCV/deep-learning-notes/issues/new?assignees=&labels=enhancement&projects=&template=feature-report.yml) rather than creating a new one.
 
 ## 🔄 Pull Request Process
 
