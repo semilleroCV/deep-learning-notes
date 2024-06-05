@@ -22,6 +22,6 @@ If you encounter any issues or have suggestions, please create a [bug report]() 
 
 ## 💬 Stay Engaged
 
-Join our [community](https://discord.com/MkCpdsHZzJ) and share your insights to help drive the project forward. Your involvement is key to the continual improvement of the repository.
+Join our [community](https://discord.gg/MkCpdsHZzJ) and share your insights to help drive the project forward. Your involvement is key to the continual improvement of the repository.
 
 Thank you for helping us improve the Deep Learning Notes repository!

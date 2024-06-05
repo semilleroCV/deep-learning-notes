@@ -44,7 +44,7 @@ Computer Vision moves fast! Sometimes our notebooks lag a tad behind the ever-pu
 
 If you'd like to add a new notebook or improve an existing one, please take a peek at our [contribution guide](https://github.com/semilleroCV/deep-learning-notes/blob/main/CONTRIBUTING.md). There you can find all the information you need.
 
-We are here for you, so don't hesitate to [reach out](https://discord.com/MkCpdsHZzJ).
+We are here for you, so don't hesitate to [reach out](https://discord.gg/MkCpdsHZzJ).
 
 ## 💻 Run Locally
 
