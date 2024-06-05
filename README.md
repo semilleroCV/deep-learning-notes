@@ -1,5 +1,11 @@
 # deep-learning-notes
 
+
+<p align="center">
+<img src="./static/logo.png" alt="Description of the image" width="1600">
+<p align="center">
+
+
 Welcome to the Deep Learning Notes repository! This repository serves as a comprehensive resource for deep learning enthusiasts, providing detailed notebooks, modular implementations, and in-depth analyses related to various aspects of deep learning. Below is the structure and a brief description of each directory within the repository:
 
 ## Project Organization
