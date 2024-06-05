@@ -6,15 +6,16 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 
 ```
 ├── LICENSE            <- Open-source license (MIT)
-├── README.md          <- The top-level README for this project.
+├── README.md          <- Overview of the repository.
 │
 ├── CONTRIBUTING.md    <- How to contribute to the project.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a short `-` delimited description, e.g. `cross-entropy-loss`.
+├── notebooks          <- Jupyter notebooks. Naming convention is a short `-` delimited description, 
+│   │                    e.g. `cross-entropy-loss`.
 │   │
 │   ├── architectures  <- Implementations of architectures, e.g. UNET.
 │   │
-│   ├── losses         <- Examples of a loss function, e.g. NLLLoss.
+│   ├── losses         <- Examples of loss functions, e.g. NLLLoss.
 │   │
 │   ├── metrics        <- Demonstrations of metrics, e.g. IoU
 │   │
@@ -26,12 +27,13 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 │
 ├── automation 
 │   │
-│   └── autogenerate_notebooks_table.py Script that performs the update of the main readme based on notebooks-table-data.csv    
+│   └── autogenerate_notebooks_table.py Script that performs the update of the main readme based on
+│        notebooks-table-data.csv    
 │
 ├── requirements.txt   <- The requirements file for reproducing the basic environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-└── core <- Source code for use in this project.
+└── core <- Common utility functions used across notebooks.
     │
     ├── __init__.py    <- Makes core a Python module
     │
