@@ -1,0 +1,14 @@
+ipython
+isort
+jupyterlab
+matplotlib
+notebook
+numpy
+pandas
+pip
+python-dotenv
+scikit-learn
+tqdm
+torch
+torchvision
+-e .

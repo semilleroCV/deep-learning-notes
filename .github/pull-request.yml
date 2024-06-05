@@ -1,0 +1,54 @@
+name: 🚀 Pull Request
+description: Submit a pull request to contribute to the Deep Learning Notes repository
+labels: [enhancement, bugfix, documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Deep Learning Notes repository!
+
+  - type: textarea
+    attributes:
+      label: Pull Request Title
+      description: Provide a concise title for your pull request.
+      placeholder: |
+        e.g., "Add Cross Entropy Loss notebook"
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the changes you are proposing.
+      placeholder: |
+        Provide a detailed description of your changes and why they are necessary.
+
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Ensure your pull request meets the following requirements:
+      options:
+        - label: I have reviewed existing notebooks to avoid duplications.
+          required: true
+        - label: My notebook is fully executed.
+          required: true
+        - label: I have included a list of all libraries and their versions used in the notebook.
+          required: true
+        - label: The notebook file is named clearly to reflect the topic (e.g., `cross-entropy-loss.ipynb`).
+          required: true
+        - label: I have placed the notebook in the appropriate directory under `notebooks/`.
+          required: true
+        - label: My code is simple, precise, and adheres to good coding practices.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Linked Issues
+      description: List any related issues this pull request addresses.
+      placeholder: |
+        e.g., "Fixes #123"
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Any other information you want to include?
+      placeholder: |
+        Include any other context, screenshots, or details that might help understand your changes.

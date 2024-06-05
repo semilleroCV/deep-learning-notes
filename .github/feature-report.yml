@@ -1,0 +1,53 @@
+name: ✨ Feature Request
+description: Suggest a new feature or improvement for the Deep Learning Notes repository
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature for the Deep Learning Notes repository!
+
+  - type: checkboxes
+    attributes:
+      label: Search before suggesting
+      description: >
+        Please search the [issues](https://github.com/semilleroCV/deep-learning-notes/issues) to see if a similar feature request already exists.
+      options:
+        - label: >
+            I have searched the Deep Learning Notes [issues](https://github.com/semilleroCV/deep-learning-notes/issues) and found no similar feature request.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description: Describe the feature or improvement you would like to suggest.
+      placeholder: |
+        Provide a clear and concise description of the feature.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Benefits
+      description: Explain how this feature would benefit the project or its users.
+      placeholder: |
+        Describe the use case and the potential impact.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Anything else you would like to share about your feature request?
+      placeholder: |
+        Include any other details or context.
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Are you willing to submit a PR?
+      description: >
+        (Optional) We encourage you to submit a [Pull Request](https://github.com/semilleroCV/deep-learning-notes/pulls) to help implement this feature.
+      options:
+        - label: Yes, I'd like to help by submitting a PR!
