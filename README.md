@@ -51,13 +51,13 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
    WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
-## 🏗️ Architectures (1 notebooks)
+## 🏗️ Architectures (0 notebooks)
 | **notebook** | **open in colab** | **complementary materials** | **repository / paper** |
 |:------------:|:-----------------:|:---------------------------:|:----------------------:|
-| [Introduction to Architectures](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/intro.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/intro.ipynb) | [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtube.com/example1) | [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/example/repo1) [![arXiv](https://img.shields.io/badge/arXiv-1234.5678-b31b1b.svg)](https://arxiv.org/abs/1234.5678)|
-## ❌ Loss Functions (0 notebooks)
+## ❌ Loss Functions (1 notebooks)
 | **notebook** | **open in colab** | **complementary materials** | **repository / paper** |
 |:------------:|:-----------------:|:---------------------------:|:----------------------:|
+| [Focal Loss](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/notebooks/losses/focal-loss.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/notebooks/losses/focal-loss.ipynb) |  |  [![arXiv](https://img.shields.io/badge/arXiv-1708.02002-b31b1b.svg)](https://arxiv.org/abs/1708.02002)|
 ## 📏 Metrics (0 notebooks)
 | **notebook** | **open in colab** | **complementary materials** | **repository / paper** |
 |:------------:|:-----------------:|:---------------------------:|:----------------------:|
