@@ -56,27 +56,23 @@ We are here for you, so don't hesitate to [reach out](https://discord.gg/MkCpdsH
 
 ## 💻 Run Locally
 
-We try to make it as easy as possible to run our Notebooks in Colab. However, if you prefer to run them locally using a Conda environment, follow the instructions below.
+We try to make it as easy as possible to run our Notebooks in Colab. However, if you prefer to run them locally follow the instructions below. We recommend not to install the dependencies globally, use [virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
 ```console
 # Clone the repository and navigate to the root directory:
 git clone git@github.com:semilleroCV/deep-learning-notes.git
 cd deep-learning-notes
 
-# Set up the Conda environment by executing the following commands in your terminal, 
-# this will create a Conda environment named deep-learning-notes with Python version
-# 3.10 and install the necessary dependencies:
-make create_environment
+# Set up the Python virtual environment and activate it:
+python3 -m venv venv
+# For Unix-based systems (Linux/Mac)
+source venv/bin/activate
+# For Windows systems
+# venv\Scripts\activate
 
-# Activate the Conda environment:
-conda activate deep-learning-notes
-make requirements
-
-# Run Jupyter Notebook:
+# (Optional) Install and run jupyter notebook:
+pip install notebook
 jupyter notebook
 ```
-
-This will open Jupyter Notebook in your default web browser, allowing you to access and run the notebooks locally.
-
 --------
 
