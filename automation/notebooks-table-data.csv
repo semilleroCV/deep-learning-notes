@@ -1,2 +1,2 @@
 display_name, notebook_name, youtube_video_path, github_repository_path, arxiv_index, readme_section
-Focal Loss,notebooks/losses/focal-loss.ipynb,,,1708.02002,losses
+Focal Loss,losses/focal-loss.ipynb,,,1708.02002,losses
