@@ -20,7 +20,7 @@ To maintain consistency, please use the following branch naming conventions for 
 ### Creating Branches
 
 - **Adding a new notebook**: `feat/topic`, e.g., `feat/focal-loss`.
-- **Proposing an improvement to an existing notebook**: `enh/topic-to-improve`, e.g., `enh/xception-module`.
+- **Proposing an improvement to an existing notebook**: `enh/notebook-to-improve`, e.g., `enh/xception-module`.
 - **Reporting a bug**: `fix/notebook-to-fix`, e.g., `fix/mnist`.
   
 1. Clone the repository and create a new branch using the appropriate naming convention.
