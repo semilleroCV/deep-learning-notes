@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="./static/logo.png" alt="Description of the image" width="1600">
+<img src="./assets/logo.png" alt="Deep Learning Notes" width="1600">
 <p align="center">
 
 
@@ -11,11 +11,19 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license (MIT)
-├── README.md          <- Overview of the repository.
+├── assets             <- Static files like images and badges.
 │
-├── CONTRIBUTING.md    <- How to contribute to the project.
+├── automation 
+│   │
+│   └── autogenerate_notebooks_table.py Script that performs the update of the main readme based on
+│        notebooks-table-data.csv    
 │
+├── core <- Common utility functions used across notebooks.
+│    │
+│    ├── __init__.py   <- Makes core a Python module
+│    │
+│    └── utils.py      <- Useful functions
+│    
 ├── notebooks          <- Jupyter notebooks. Naming convention is a short `-` delimited description, 
 │   │                    e.g. `cross-entropy-loss`.
 │   │
@@ -28,22 +36,14 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 │   ├── modules        <- Implementations of a module, e.g. Xception module.
 │   │
 │   └── data_exploration    <- Exploration of a dataset, e.g. MNIST.
-│ 
-├── papers             <- Articles about important deep learning papers.
 │
-├── automation 
-│   │
-│   └── autogenerate_notebooks_table.py Script that performs the update of the main readme based on
-│        notebooks-table-data.csv    
+├── papers             <- Markdown articles about important deep learning papers.
 │
-├── requirements.txt   <- The requirements file for reproducing the basic environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── CONTRIBUTING.md    <- How to contribute to the project.
 │
-└── core <- Common utility functions used across notebooks.
-    │
-    ├── __init__.py    <- Makes core a Python module
-    │
-    └── utils.py    <- Useful functions
+├── LICENSE            <- Open-source license (MIT)
+│
+└── README.md          <- Overview of the repository.
 ```
 
 ## 🐞 Bugs & 🦸 Contribution
