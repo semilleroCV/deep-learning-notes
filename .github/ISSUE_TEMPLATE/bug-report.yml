@@ -44,6 +44,7 @@ body:
         - Google Colab / Kaggle / Local
         - OS: Ubuntu 22.04
         - Python: 3.10.0
+        - Libraries: torch 2.2.1+cu121
     validations:
       required: true
 
