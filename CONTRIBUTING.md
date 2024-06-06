@@ -11,12 +11,28 @@ We are thrilled to have you contribute to the Deep Learning Notes repository! We
 1. Ensure your notebook is fully executed before making a pull request.
 2. Include a list of all libraries and their versions used in your notebook at the top.
 3. Name your notebook file clearly to reflect the topic, e.g., `cross-entropy-loss.ipynb`.
-4. Keep your code simple, precise, and adhere to good coding practices. For example, if your notebook explains Cross Entropy Loss, focus only on Cross Entropy Loss.
+4. Keep your code simple, precise, and adhere to good coding practices. For example, if your notebook explains a module of a network, e.g. Xception module, focus only on the Xception module.
 5. Place your new notebook in the appropriate directory under `notebooks/`.
+
+## 🌿 Branch Naming Conventions
+To maintain consistency, please use the following branch naming conventions for different types of contributions:
+
+### Creating Branches
+
+- **Adding a new notebook**: `feat/topic`, e.g., `feat/focal-loss`.
+- **Proposing an improvement to an existing notebook**: `enh/topic-to-improve`, e.g., `enh/xception-module`.
+- **Reporting a bug**: `fix/notebook-to-fix`, e.g., `fix/mnist`.
+  
+1. Clone the repository and create a new branch using the appropriate naming convention.
+   ```sh
+   git checkout -b type/branch-name
+   ```
+2. Make the necessary changes and ensure they adhere to the [contribution guidelines](https://github.com/semilleroCV/deep-learning-notes/edit/main/CONTRIBUTING.md#-pull-request-process).
+3. Commit your changes to the feature branch and create a pull request.
 
 ## 🐞 Reporting Issues
 
-If you encounter any issues or have suggestions, please create a [bug report]() in the repository detailing:
+If you encounter any issues or have suggestions, please create a [bug report](https://github.com/semilleroCV/deep-learning-notes/issues/new?assignees=&labels=bug%2Ctriage&projects=&template=bug-report.yml) in the repository detailing:
 - The problem/suggestion in clear terms.
 - How it affects the current state of the project.
 
