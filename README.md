@@ -48,7 +48,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 
 ## 🐞 Bugs & 🦸 Contribution
 
-Computer Vision moves fast! Sometimes our notebooks lag a little behind the ever-pushing forward libraries. If you notice that any of the notebooks is not working properly, create a [bug report](https://github.com/semilleroCV/deep-learning-notes/issues/new?assignees=&labels=bug%2Ctriage&projects=&template=bug-report.yml) and let us know.
+Computer Vision progresses rapidly! Occasionally, our notebooks may lag a little behind the constantly advancing libraries. If you encounter any issues with the functionality of our notebooks, please create a [bug report](https://github.com/semilleroCV/deep-learning-notes/issues/new?assignees=&labels=bug%2Ctriage&projects=&template=bug-report.yml) to inform us.
 
 If you'd like to add a new notebook or improve an existing one, please take a peek at our [contribution guide](https://github.com/semilleroCV/deep-learning-notes/blob/main/CONTRIBUTING.md). There you can find all the information you need.
 
