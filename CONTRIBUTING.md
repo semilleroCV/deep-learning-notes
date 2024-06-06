@@ -27,7 +27,7 @@ To maintain consistency, please use the following branch naming conventions for 
    ```sh
    git checkout -b type/branch-name
    ```
-2. Make the necessary changes and ensure they adhere to the [contribution guidelines](https://github.com/semilleroCV/deep-learning-notes/edit/main/CONTRIBUTING.md#-pull-request-process).
+2. Make the necessary changes and ensure they adhere to the [contribution guidelines](https://github.com/semilleroCV/deep-learning-notes/blob/main/CONTRIBUTING.md#-pull-request-process).
 3. Commit your changes to the feature branch and create a pull request.
 
 ## 🐞 Reporting Issues
