@@ -1,1 +1,2 @@
-display_name, notebook_name, github_repository_path, arxiv_index, readme_section
+display_name, notebook_name, youtube_video_path, github_repository_path, arxiv_index, readme_section
+Introduction to Architectures,architectures/intro.ipynb,https://youtube.com/example1,https://github.com/example/repo1,1234.5678,architectures

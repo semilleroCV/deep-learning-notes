@@ -71,8 +71,8 @@ class TableEntry:
             for field
             in csv_line.split(",")
         ]
-        if len(csv_fields) != 7:
-            raise Exception("Every csv line must contain 7 fields")
+        if len(csv_fields) != 6:
+            raise Exception("Every csv line must contain 6 fields")
         return TableEntry(
             display_name=csv_fields[0],
             notebook_name=csv_fields[1],
