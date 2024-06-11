@@ -23,7 +23,7 @@ jobs:
       - name: Update changes in GitHub repository
         if: steps.git-check.outputs.modified == 'true'
         run: |
-          git config --global user.name 'gpintoruiz'
-          git config --global user.email 'gpintoruiz@users.noreply.github.com'
+          git config --global user.name 'GitHub Actions [Bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git commit -am "🤖 Hi bro, the notebooks table has been reconstructed."
           git push
