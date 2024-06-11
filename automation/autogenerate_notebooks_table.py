@@ -15,8 +15,8 @@ WARNING_HEADER = [
 ]
 
 TABLE_HEADER = [
-    "| **notebook** | **open in colab** | **complementary materials** | **repository / paper** |",
-    "|:------------:|:-----------------:|:---------------------------:|:----------------------:|"
+    "| **notebook** | **open in colab** | **repository / paper** |",
+    "|:------------:|:-----------------:|:----------------------:|"
 ]
 
 # Update section headers based on your notebook folders
