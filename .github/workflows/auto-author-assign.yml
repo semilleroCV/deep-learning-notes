@@ -1,19 +1,18 @@
-name: Assign PR to Author
+name: Auto Author Assign
 
-# This workflow runs on pull request events when a PR is opened or reopened
+# Trigger the workflow on pull request events when opened or reopened
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, reopened]
 
+# Grant the necessary permissions to modify pull requests
+permissions:
+  pull-requests: write
+
 jobs:
-  assign:
+  assign-author:
     runs-on: ubuntu-latest
 
     steps:
-      # Step to checkout the repository code
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      # Step to assign the PR to its author using the auto-author-assign action
-      - name: Assign PR to Author
-        uses: toshimaru/auto-author-assign@v1
+      # Step to use the auto-author-assign action
+      - uses: toshimaru/auto-author-assign@v2.1.0
