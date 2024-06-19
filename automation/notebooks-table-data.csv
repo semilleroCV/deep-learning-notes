@@ -1,3 +1,4 @@
 display_name, notebook_name, github_repository_path, arxiv_index
 Focal Loss,losses/focal-loss.ipynb,https://github.com/facebookresearch/Detectron,1708.02002
+CELoss vs NLLLoss, losses/celoss-vs-nllloss.ipynb, , 
 Network In Network, architectures/network-in-network.ipynb,,1312.4400
