@@ -51,10 +51,11 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
    WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
-## 🏗️ Architectures (1 notebooks)
+## 🏗️ Architectures (2 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Network In Network](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1312.4400-b31b1b.svg)](https://arxiv.org/abs/1312.4400)|
+| [Xception](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/xception.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/xception.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1610.02357v3-b31b1b.svg)](https://arxiv.org/abs/1610.02357v3)|
 ## ❌ Loss Functions (2 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
