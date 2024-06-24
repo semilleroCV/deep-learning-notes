@@ -3,3 +3,4 @@ Focal Loss,losses/focal-loss.ipynb,https://github.com/facebookresearch/Detectron
 CELoss vs NLLLoss, losses/celoss-vs-nllloss.ipynb, , 
 Network In Network, architectures/network-in-network.ipynb,,1312.4400
 Xception, architectures/xception.ipynb,,1610.02357v3
+Pixel Shuffle, modules/pixel-shuffle.ipynb,,1609.05158
