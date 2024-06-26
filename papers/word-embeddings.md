@@ -42,7 +42,7 @@ In the example "mi mascota mi perro mi amigo", the model minimizes the differenc
 
 This process is repeated for all the words in our vocabulary.
 
-Generally this process of 'training' the embeddings is not done by us but by using pre-trained embeddings, for example from [GloVe.](https://nlp.stanford.edu/projects/glove/). Below is a demonstration of the GloVe embeddings taken from the following [notebook](notebooks/data_exploration/glove-word-embeddings.ipynb).
+Generally this process of 'training' the embeddings is not done by us but by using pre-trained embeddings, for example from [GloVe.](https://nlp.stanford.edu/projects/glove/) Below is a demonstration of the GloVe embeddings taken from the following [notebook](../notebooks/data_exploration/glove-word-embeddings.ipynb).
 
 ## Low dimensionality plot of embeddings
 ## Analogies between embeddings
