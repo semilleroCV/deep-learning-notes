@@ -1,6 +1,6 @@
 When training a neural network for natural language processing, we need to use words from a vocabulary. However, it is evident that we cannot feed the network with the raw characters of a word. 
 
-![alt text](../assets/train-rnn-with-raw.png)
+![alt text](../assets/word-embeddings/train-rnn-with-raw.png)
 
 This raises the question: how can words be represented computationally? One effective solution to this problem is **word embeddings.**
 
@@ -18,7 +18,7 @@ The topics to be covered in this article are the following:
 
 An embedding is a vector of 1xN dimensions that represents the semantic relationship that a word has with other words in the vocabulary.
 
-![alt text](../assets/what-is-word-embedding.png)
+![alt text](../assets/word-embeddings/what-is-word-embedding.png)
 
 ## How are they trained?
 
@@ -30,7 +30,7 @@ In the example: "mi mascota mi perro mi amigo"
 
 The context that our model will search for is: behind, 'mascota' and 'mi', and ahead, 'mi' and 'amigo'.
 
-![alt text](../assets/window-sample.png)
+![alt text](../assets/word-embeddings/window-sample.png)
 
 ## How does the model learn?
 
@@ -63,9 +63,9 @@ def plot_embeddings(words2show:list, embeddings_dict:dict=embeddings_dict, fun=P
 
 This function **`plot_embeddings`** takes a list of words (**`words2show`**), a dictionary of embeddings (**`embeddings_dict`**), and a dimensionality reduction function (**`fun`**, such as PCA or TSNE). It reduces the dimensions of the embeddings to 2D and plots them using matplotlib, displaying the words at their corresponding points in the plot.
 
-![alt text](../assets/plot-with-pca.png)
+![alt text](../assets/word-embeddings/plot-with-pca.png)
 
-![alt text](../assets/plot-with-tsne.png)
+![alt text](../assets/word-embeddings/plot-with-tsne.png)
 
 This helps us to visually recognize how embeddings group words that have a strong semantic relationship, e.g., all countries are close together.
 
