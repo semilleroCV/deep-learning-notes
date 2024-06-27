@@ -33,7 +33,7 @@ Add the relevant information about your notebook to the `automation/notebooks-ta
 - `display_name` corresponds to the name by which your notebook will appear in the main readme, e.g., `Focal Loss`.
 - `notebook_name` where your notebook is located, e.g., `losses/focal-loss.ipynb`
 - (Optional) `github_repository_path` link to the source code of the document that you are covering.
-- (Optional) `arxiv_index` arxiv index of the document you are covering, e.g., `1708.02002`.
+- (Optional) `paper_url` URL of the document you are covering, e.g., `https://arxiv.org/abs/1708.02002`.
 ### 5. Commit and Push Your Changes
 ```sh
 git add .

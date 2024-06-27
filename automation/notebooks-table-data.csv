@@ -1,7 +1,7 @@
-display_name, notebook_name, github_repository_path, arxiv_index
-Focal Loss,losses/focal-loss.ipynb,https://github.com/facebookresearch/Detectron,1708.02002
-CELoss vs NLLLoss, losses/celoss-vs-nllloss.ipynb, , 
-Network In Network, architectures/network-in-network.ipynb,,1312.4400
-Xception, architectures/xception.ipynb,,1610.02357v3
-Pixel Shuffle, modules/pixel-shuffle.ipynb,,1609.05158
-U-Net, architectures/unet.ipynb,,1505.04597
+display_name, notebook_name, github_repository_path, paper_url
+Focal Loss,losses/focal-loss.ipynb,https://github.com/facebookresearch/Detectron,https://arxiv.org/abs/1708.02002
+CELoss vs NLLLoss,losses/celoss-vs-nllloss.ipynb,,
+Network In Network,architectures/network-in-network.ipynb,,https://arxiv.org/abs/1312.4400
+Xception,architectures/xception.ipynb,,https://arxiv.org/abs/1610.02357v3
+Pixel Shuffle,modules/pixel-shuffle.ipynb,,https://arxiv.org/abs/1609.05158
+U-Net,architectures/unet.ipynb,,https://arxiv.org/abs/1505.04597
