@@ -4,3 +4,4 @@ CELoss vs NLLLoss, losses/celoss-vs-nllloss.ipynb, ,
 Network In Network, architectures/network-in-network.ipynb,,1312.4400
 Xception, architectures/xception.ipynb,,1610.02357v3
 Pixel Shuffle, modules/pixel-shuffle.ipynb,,1609.05158
+GloVe Word Embeddings, data_exploration/glove-word-embeddings.ipynb,https://github.com/stanfordnlp/GloVe,https://nlp.stanford.edu/pubs/glove.pdf
