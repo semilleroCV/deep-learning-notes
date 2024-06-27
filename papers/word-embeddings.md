@@ -1,6 +1,6 @@
 When training a neural network for natural language processing, we need to use words from a vocabulary. However, it is evident that we cannot feed the network with the raw characters of a word. 
 
-![alt text](../assets/word-embeddings/train-rnn-with-raw.png)
+![Training RNN with raw characters](../assets/word-embeddings/train-rnn-with-raw.png)
 
 This raises the question: how can words be represented computationally? One effective solution to this problem is **word embeddings.**
 
@@ -18,7 +18,7 @@ The topics to be covered in this article are the following:
 
 An embedding is a vector of 1xN dimensions that represents the semantic relationship that a word has with other words in the vocabulary.
 
-![alt text](../assets/word-embeddings/what-is-word-embedding.png)
+![Word embedding representation](../assets/word-embeddings/what-is-word-embedding.png)
 
 ## How are they trained?
 
@@ -28,9 +28,9 @@ Our model will find the probability that words from the vocabulary appear in the
 
 In the example: "mi mascota mi perro mi amigo"
 
-The context that our model will search for is: behind, 'mascota' and 'mi', and ahead, 'mi' and 'amigo'.
+![Context window sample](../assets/word-embeddings/window-sample.png)
 
-![alt text](../assets/word-embeddings/window-sample.png)
+The context that our model will search for is: behind, 'mascota' and 'mi', and ahead, 'mi' and 'amigo'.
 
 ## How does the model learn?
 
@@ -50,9 +50,20 @@ To visualize the embeddings in lower dimensions, we can use the following functi
 
 ```python
 def plot_embeddings(words2show:list, embeddings_dict:dict=embeddings_dict, fun=PCA):
+  """
+  Plots the embeddings of given words in 2D space using dimensionality reduction.
+  
+  Parameters:
+  - words2show (list): List of words to visualize.
+  - embeddings_dict (dict): Dictionary with word embeddings.
+  - fun (function): Dimensionality reduction function (default: PCA).
+  """
+  # Extract embeddings for the given words
   embeddings = np.array([embeddings_dict[word] for word in words2show])
+  # Reduce dimensions to 2D
   vectors_2d = fun(n_components=2).fit_transform(embeddings)
 
+  # Plot the 2D vectors
   plt.figure(figsize=(20, 10))
   plt.scatter(vectors_2d[:, 0], vectors_2d[:, 1], c='red', edgecolors='r')
   for i, word in enumerate(words2show):
@@ -63,9 +74,9 @@ def plot_embeddings(words2show:list, embeddings_dict:dict=embeddings_dict, fun=P
 
 This function **`plot_embeddings`** takes a list of words (**`words2show`**), a dictionary of embeddings (**`embeddings_dict`**), and a dimensionality reduction function (**`fun`**, such as PCA or TSNE). It reduces the dimensions of the embeddings to 2D and plots them using matplotlib, displaying the words at their corresponding points in the plot.
 
-![alt text](../assets/word-embeddings/plot-with-pca.png)
+![PCA plot of embeddings](../assets/word-embeddings/plot-with-pca.png)
 
-![alt text](../assets/word-embeddings/plot-with-tsne.png)
+![t-SNE plot of embeddings](../assets/word-embeddings/plot-with-tsne.png)
 
 This helps us to visually recognize how embeddings group words that have a strong semantic relationship, e.g., all countries are close together.
 
@@ -75,15 +86,30 @@ To find analogies using word embeddings, we can leverage the relationships captu
 
 ```python
 def analogy(word1:str, word2:str, word3:str, embeddings_dict:dict=embeddings_dict):
+  """
+  Finds the word that completes the analogy: word1 is to word2 as word3 is to ???
+  
+  Parameters:
+  - word1 (str): First word of the analogy.
+  - word2 (str): Second word of the analogy.
+  - word3 (str): Third word of the analogy.
+  - embeddings_dict (dict): Dictionary with word embeddings.
+  
+  Returns:
+  - str: The word that completes the analogy.
+  """
+  # Get the embeddings for the given words
   embedding_w1 = np.array(embeddings_dict[word1])
   embedding_w2 = np.array(embeddings_dict[word2])
   embedding_w3 = np.array(embeddings_dict[word3])
 
+  # Compute the new embedding for the analogy
   new_embedding = (embedding_w2 - embedding_w1) + embedding_w3
   
   max_cosine_sim = -float('inf')
   most_close = ''
 
+  # Find the word with the highest cosine similarity to the new embedding
   for word in list(embeddings_dict):
     if word not in [word1, word2, word3]:
 
@@ -104,13 +130,26 @@ We can use cosine similarity to find words that are most similar to a specific o
 
 ```python
 def find_most_similar(word:str, embeddings_dict:dict=embeddings_dict, top_n:int=10):
+  """
+  Finds the top N words most similar to the given word using cosine similarity.
+  
+  Parameters:
+  - word (str): The word to find similarities for.
+  - embeddings_dict (dict): Dictionary with word embeddings.
+  - top_n (int): Number of top similar words to return (default: 10).
+  
+  Returns:
+  - list of tuples: Top N most similar words and their cosine similarity scores.
+  """
   if word not in embeddings_dict:
     raise ValueError(f"The word '{word}' is not in the embeddings dictionary.")
 
+  # Get the embedding for the given word
   embedding_word = np.array(embeddings_dict[word])
 
   similarities = {}
 
+  # Compute cosine similarity for each word in the dictionary
   for word_dict in list(embeddings_dict):
     if word_dict != word:
       cosine_sim = np.dot(embedding_word, embeddings_dict[word_dict]) / (np.linalg.norm(embedding_word) * np.linalg.norm(embeddings_dict[word_dict]))
