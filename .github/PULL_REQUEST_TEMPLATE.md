@@ -1,10 +1,4 @@
-Thank you for contributing to the Deep Learning Notes repository!
-
-### Pull Request Title
-_Provide a concise title for your pull request._
-
 ### Description
-Describe the changes you are proposing.
 _Provide a detailed description of your changes and why they are necessary._
 
 ### Checklist

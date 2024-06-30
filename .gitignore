@@ -22,3 +22,6 @@ venv.bak/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Mac OS-specific storage files
+.DS_Store
