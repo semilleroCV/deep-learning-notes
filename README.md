@@ -51,7 +51,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
    WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
-## 🏗️ Architectures (5 notebooks)
+## 🏗️ Architectures (6 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Network In Network](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1312.4400-b31b1b.svg)](https://arxiv.org/abs/1312.4400)|
@@ -59,6 +59,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 | [U-Net](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/unet.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/unet.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1505.04597-b31b1b.svg)](https://arxiv.org/abs/1505.04597)|
 | [DenseNet](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/densenet.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/densenet.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1608.06993v5-b31b1b.svg)](https://arxiv.org/abs/1608.06993v5)|
 | [Mobilenet V1](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mobilenetv1.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mobilenetv1.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1704.04861-b31b1b.svg)](https://arxiv.org/abs/1704.04861)|
+| [Inception V1](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/inceptionv1.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/inceptionv1.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1409.4842-b31b1b.svg)](https://arxiv.org/abs/1409.4842)|
 ## ❌ Loss Functions (2 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
