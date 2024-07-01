@@ -6,3 +6,4 @@ Xception, architectures/xception.ipynb,,1610.02357v3
 Pixel Shuffle, modules/pixel-shuffle.ipynb,,1609.05158
 U-Net, architectures/unet.ipynb,,1505.04597
 DenseNet, architectures/densenet.ipynb,,1608.06993v5
+Mobilenet V1, architectures/mobilenetv1.ipynb,,1704.04861
