@@ -51,7 +51,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
    WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
-## 🏗️ Architectures (3 notebooks)
+## 🏗️ Architectures (7 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Network In Network](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1312.4400) |
@@ -62,6 +62,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 |:------------:|:-----------------:|:----------------------:|
 | [Focal Loss](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/focal-loss.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/focal-loss.ipynb) | [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/Detectron) [![arXiv](https://img.shields.io/badge/arXiv-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1708.02002) |
 | [CELoss vs NLLLoss](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/celoss-vs-nllloss.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/celoss-vs-nllloss.ipynb) |   |
+
 ## 🧩 Modules (1 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
