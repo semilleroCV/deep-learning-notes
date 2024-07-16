@@ -1,7 +1,13 @@
-display_name, notebook_name, github_repository_path, arxiv_index
-Focal Loss,losses/focal-loss.ipynb,https://github.com/facebookresearch/Detectron,1708.02002
-CELoss vs NLLLoss, losses/celoss-vs-nllloss.ipynb, , 
-Network In Network, architectures/network-in-network.ipynb,,1312.4400
-Xception, architectures/xception.ipynb,,1610.02357v3
-Pixel Shuffle, modules/pixel-shuffle.ipynb,,1609.05158
+display_name,notebook_name,github_repository_path,paper_url
+Focal Loss,losses/focal-loss.ipynb,https://github.com/facebookresearch/Detectron,https://arxiv.org/abs/1708.02002
+CELoss vs NLLLoss,losses/celoss-vs-nllloss.ipynb,, 
+Network In Network,architectures/network-in-network.ipynb,,https://arxiv.org/abs/1312.4400
+Xception,architectures/xception.ipynb,,https://arxiv.org/abs/1610.02357v3
+Pixel Shuffle,modules/pixel-shuffle.ipynb,,https://arxiv.org/abs/1609.05158
+U-Net,architectures/unet.ipynb,,https://arxiv.org/abs/1505.04597
+DenseNet,architectures/densenet.ipynb,,https://arxiv.org/abs/1608.06993v5
+Mobilenet V1,architectures/mobilenetv1.ipynb,,https://arxiv.org/abs/1704.04861
+Inception V1,architectures/inceptionv1.ipynb,,https://arxiv.org/abs/1409.4842
+Intersection Over Union (IoU),metrics/intersection-over-union.ipynb,,https://arxiv.org/abs/1902.09630
+MLP Mixer,architectures/mlp-mixer.ipynb,,https://arxiv.org/abs/2105.01601
 GloVe Word Embeddings, data_exploration/glove-word-embeddings.ipynb,https://github.com/stanfordnlp/GloVe,https://nlp.stanford.edu/pubs/glove.pdf
