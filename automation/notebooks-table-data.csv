@@ -11,4 +11,4 @@ Inception V1,architectures/inceptionv1.ipynb,,https://arxiv.org/abs/1409.4842
 Intersection Over Union (IoU),metrics/intersection-over-union.ipynb,,https://arxiv.org/abs/1902.09630
 MLP Mixer,architectures/mlp-mixer.ipynb,,https://arxiv.org/abs/2105.01601
 GloVe Word Embeddings, data_exploration/glove-word-embeddings.ipynb,https://github.com/stanfordnlp/GloVe,https://nlp.stanford.edu/pubs/glove.pdf
-Vision Transformer (ViT),architectures/ViT.ipynb,,https://arxiv.org/pdf/2010.11929
+Vision Transformer (ViT),architectures/vit.ipynb,,https://arxiv.org/pdf/2010.11929
