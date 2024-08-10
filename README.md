@@ -51,7 +51,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
    WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
-## 🏗️ Architectures (7 notebooks)
+## 🏗️ Architectures (8 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Network In Network](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1312.4400-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1312.4400) |
@@ -61,6 +61,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 | [Mobilenet V1](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mobilenetv1.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mobilenetv1.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1704.04861-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1704.04861) |
 | [Inception V1](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/inceptionv1.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/inceptionv1.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1409.4842-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1409.4842) |
 | [MLP Mixer](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mlp-mixer.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mlp-mixer.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-2105.01601-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2105.01601) |
+| [Vision Transformer (ViT)](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/vit.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/vit.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-2010.11929-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2010.11929) |
 ## ❌ Loss Functions (2 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
