@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 from dataclasses import dataclass
 from typing import Optional, List
-from .logos import SHIELD_LOGOS
+from logos import SHIELD_LOGOS
 
 NOTEBOOKS_ROOT_PATH = "https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks"
 NOTEBOOKS_COLAB_ROOT_PATH = "github/semilleroCV/deep-learning-notes/blob/main/notebooks"
