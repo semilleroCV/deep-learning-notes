@@ -75,7 +75,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Pixel Shuffle](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/pixel-shuffle.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/pixel-shuffle.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1609.05158-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1609.05158) |
-| [Multi-Head Attention](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/multihead-self-attention) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/multihead-self-attention) |  [![arXiv](https://img.shields.io/badge/arXiv-1706.03762-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1706.03762) |
+| [Multi-Head Attention](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/multihead-self-attention.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/multihead-self-attention.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1706.03762-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1706.03762) |
 ## 🔍 Data Exploration (1 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
