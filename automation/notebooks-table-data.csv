@@ -14,3 +14,4 @@ GloVe Word Embeddings, data_exploration/glove-word-embeddings.ipynb,https://gith
 Vision Transformer (ViT),architectures/vit.ipynb,,https://arxiv.org/pdf/2010.11929
 Multi-Head Attention, modules/multihead-self-attention.ipynb,,https://arxiv.org/abs/1706.03762
 ResNet,architectures/resnet.ipynb,,https://arxiv.org/abs/1512.03385
+ConvMixer,architectures/ConvMixer.ipynb,,https://arxiv.org/pdf/2201.09792
