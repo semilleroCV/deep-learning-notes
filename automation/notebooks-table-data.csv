@@ -13,4 +13,6 @@ MLP Mixer,architectures/mlp-mixer.ipynb,,https://arxiv.org/abs/2105.01601
 GloVe Word Embeddings, data_exploration/glove-word-embeddings.ipynb,https://github.com/stanfordnlp/GloVe,https://nlp.stanford.edu/pubs/glove.pdf
 Vision Transformer (ViT),architectures/vit.ipynb,,https://arxiv.org/pdf/2010.11929
 Multi-Head Attention, modules/multihead-self-attention.ipynb,,https://arxiv.org/abs/1706.03762
+ResNet,architectures/resnet.ipynb,,https://arxiv.org/abs/1512.03385
+Convolutional Block Attention, modules/convolutional-block-attention.ipynb,,https://arxiv.org/abs/1807.06521
 Transformer, architectures/transformer.ipynb,,https://arxiv.org/abs/1706.03762

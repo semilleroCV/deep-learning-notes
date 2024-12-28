@@ -51,7 +51,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
    WARNING: DO NOT EDIT THIS TABLE MANUALLY. IT IS AUTOMATICALLY GENERATED.
    HEAD OVER TO CONTRIBUTING.MD FOR MORE DETAILS ON HOW TO MAKE CHANGES PROPERLY.
 -->
-## 🏗️ Architectures (8 notebooks)
+## 🏗️ Architectures (9 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Network In Network](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/network-in-network.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1312.4400-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1312.4400) |
@@ -62,6 +62,7 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 | [Inception V1](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/inceptionv1.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/inceptionv1.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1409.4842-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1409.4842) |
 | [MLP Mixer](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mlp-mixer.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/mlp-mixer.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-2105.01601-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2105.01601) |
 | [Vision Transformer (ViT)](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/vit.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/vit.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-2010.11929-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2010.11929) |
+| [ResNet](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/resnet.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/architectures/resnet.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1512.03385-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1512.03385) |
 ## ❌ Loss Functions (2 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
@@ -71,11 +72,12 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Intersection Over Union (IoU)](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/metrics/intersection-over-union.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/metrics/intersection-over-union.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1902.09630-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1902.09630) |
-## 🧩 Modules (2 notebooks)
+## 🧩 Modules (3 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Pixel Shuffle](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/pixel-shuffle.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/pixel-shuffle.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1609.05158-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1609.05158) |
 | [Multi-Head Attention](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/multihead-self-attention.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/multihead-self-attention.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1706.03762-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1706.03762) |
+| [Convolutional Block Attention](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/convolutional-block-attention.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/modules/convolutional-block-attention.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1807.06521-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1807.06521) |
 ## 🔍 Data Exploration (1 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
