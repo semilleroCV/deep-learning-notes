@@ -17,3 +17,4 @@ ResNet,architectures/resnet.ipynb,,https://arxiv.org/abs/1512.03385
 Convolutional Block Attention, modules/convolutional-block-attention.ipynb,,https://arxiv.org/abs/1807.06521
 Transformer, architectures/transformer.ipynb,,https://arxiv.org/abs/1706.03762
 ConvMixer,architectures/convmixer.ipynb,,https://arxiv.org/pdf/2201.09792
+LPIPS,metrics/lpips.ipynb,https://github.com/S-aiueo32/lpips-pytorch,https://arxiv.org/pdf/1801.03924
