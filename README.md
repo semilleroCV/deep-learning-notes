@@ -70,10 +70,11 @@ Welcome to the Deep Learning Notes repository! This repository serves as a compr
 |:------------:|:-----------------:|:----------------------:|
 | [Focal Loss](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/focal-loss.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/focal-loss.ipynb) | [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/Detectron) [![arXiv](https://img.shields.io/badge/arXiv-1708.02002-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1708.02002) |
 | [CELoss vs NLLLoss](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/celoss-vs-nllloss.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/losses/celoss-vs-nllloss.ipynb) |   |
-## 📏 Metrics (1 notebooks)
+## 📏 Metrics (2 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
 | [Intersection Over Union (IoU)](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/metrics/intersection-over-union.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/metrics/intersection-over-union.ipynb) |  [![arXiv](https://img.shields.io/badge/arXiv-1902.09630-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1902.09630) |
+| [LPIPS](https://github.com/semilleroCV/deep-learning-notes/blob/main/notebooks/metrics/lpips.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semilleroCV/deep-learning-notes/blob/main/notebooks/metrics/lpips.ipynb) | [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/S-aiueo32/lpips-pytorch) [![arXiv](https://img.shields.io/badge/arXiv-1801.03924-%23B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/1801.03924) |
 ## 🧩 Modules (3 notebooks)
 | **notebook** | **open in colab** | **repository / paper** |
 |:------------:|:-----------------:|:----------------------:|
